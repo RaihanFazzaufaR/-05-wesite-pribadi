@@ -34,3 +34,30 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Praktikum
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>Raihan Fazzaufa Rasendriya</td>
+    </tr>
+    <tr>
+        <td>NIM</td>
+        <td>2241720201</td>
+    </tr>
+    <tr>
+        <td>Kelas</td>
+        <td>TI - 3B</td>
+    </tr>
+    <tr>
+        <td>No. Absen</td>
+        <td>17</td>
+    </tr>
+</table>
+
+1. Modifikasi halaman "Esai" dengan Grid daftar artikel yang telah ditulis. 
+
+![image essai](/public/images/screenshot/image-1.png)
+
+2. Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik
+![image tentang](/public/images/screenshot/image-2.png) 

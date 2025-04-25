@@ -1,7 +1,32 @@
-export default function Home() {
+"use client";
+
+import Image from "next/image";
+import picture from "../../public/images/profile.jpg";
+import { useEffect, useState } from "react";
+
+export default function AboutMe() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setIsVisible(true), 100);
+  }, []);
+
   return (
-    <div className="flex items-center justify-center px-3 py-4 text-xl font-bold text-zinc-50">
-      <h1>About Me</h1>
+    <div className="px-3 py-4 text-xl font-bold text-zinc-50">
+      <h1 className="flex w-full justify-center pb-">About Me</h1>
+      <div className="flex justify-center items-center min-h-[20rem]">
+        <div className="w-80 h-80 rounded-full overflow-hidden relative transform scale-100 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <Image src={picture} alt="Profile Picture" fill className="object-cover shadow-lg"/>
+        </div>
+        <div className="max-w-6/12 ml-9 flex flex-col items-center">
+              <p className={`mt-6 text-2xl text-zinc-50 text-justify transition-all duration-700 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+                Halo, Saya Raihan Fazzaufa Rasendriya
+              </p>
+              <p className={`mt-6 text-xl text-zinc-50 text-justify transition-all duration-700 ease-out delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
+                Saya seorang pengembang web yang berfokus pada backend serta frontend. Saya memiliki berbagai pengalaman di dalam pengembangan aplikasi web, termasuk pengalaman dalam menggunakan berbagai teknologi dan alat untuk membangun aplikasi yang efisien dan efektif.
+              </p>
+      </div>
+      </div>
     </div>
   );
 }
