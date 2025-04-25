@@ -13,12 +13,12 @@ function FooterLink({ text, url }: FooterLinkProps) {
 export default function Footer() {
     return (
         <footer className="pt-10 px-8 pb-16 border-t">
-            <div className="flex gap-6 text-sm font-medium text-zinc-600">
+            <div className="flex gap-6 text-sm font-medium text-white-600 justify-center">
                 <FooterLink text="About Me" url="/" />
                 <FooterLink text="Projects" url="/projects" />
                 <FooterLink text="Essays" url="/essays" />
             </div>
-            <p className="text-sm text-zinc-400">&copy; 2025 Raihan Fazzaufa Rasendriya. All right reserved.</p>
+            <p className="text-sm text-zinc-400 text-center py-5">&copy; 2025 Raihan Fazzaufa Rasendriya. All right reserved.</p>
         </footer>
     )
 }

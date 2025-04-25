@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div>
+    <div className="flex items-center justify-center px-3 py-4 text-xl font-bold text-zinc-50">
       <h1>About Me</h1>
     </div>
   );
