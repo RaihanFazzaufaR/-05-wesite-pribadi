@@ -49,8 +49,8 @@ export default function Projects() {
             <div className='mt-16'>
                 <h2 className='flex items-center justify-center text-xl'>Aplikasi</h2>
                 <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-14 gap-y-16 mt-8 mb-4 w-fit mx-auto'>
-                    <ProjectItem name='SIRAWA' url="https://example.com" urlDisplay='SIRAWA' imageSrc={Image1}/>
-                    <ProjectItem name='MoodSync' url="https://example.com" urlDisplay='MoodSync' imageSrc={Image2}/>
+                    <ProjectItem name='SIRAWA' url="https://github.com/RaihanFazzaufaR/project-base-learning-2024" urlDisplay='SIRAWA' imageSrc={Image1}/>
+                    <ProjectItem name='MoodSync' url="https://github.com/ExpressCode-Team" urlDisplay='MoodSync' imageSrc={Image2}/>
                 </ul>
             </div>
         </div>
